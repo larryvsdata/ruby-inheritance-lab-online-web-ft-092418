@@ -9,7 +9,9 @@ def initialize
 end
 
 def teach 
-  rand_number = 
+  r = Random.new
+  rand_number = r.rand(KNOWLEDGE.count)
+  KNOWLEDGE[rand_random]
 end 
   
 end

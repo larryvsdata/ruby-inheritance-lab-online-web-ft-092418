@@ -11,7 +11,7 @@ end
 def teach 
   r = Random.new
   rand_number = r.rand(KNOWLEDGE.count)
-  KNOWLEDGE[rand_random]
+  KNOWLEDGE[rand_number]
 end 
   
 end

@@ -1,5 +1,5 @@
 class Student < User
-attr_accessor :name, :surname
+attr_accessor :first_name, :surname
 
 def initialize
   

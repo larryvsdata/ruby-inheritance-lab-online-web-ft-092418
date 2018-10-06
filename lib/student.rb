@@ -6,4 +6,9 @@ def initialize
 end
 
 
+def learn (info)
+  
+  @knowledge << info
+end
+
 end
